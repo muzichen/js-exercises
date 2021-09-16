@@ -54,8 +54,8 @@ const state = {
 }
 
 // console.log(update([1], {$push: [2, 3]}));
-console.log(update(state, { a: {b: { $set: 123 } } }));
+// console.log(update(state, { a: {b: { $set: 123 } } }));
 // console.log(update([1], {0: {$apply: (item) => item * 2}}));
 // console.log()
 
-console.log(update({a: 1}, {a: {$merge: {c: 3}}}))
+// console.log(update({a: 1}, {a: {$merge: {c: 3}}}))
